@@ -18,7 +18,7 @@ public class CameraFollow : MonoBehaviour
     float camX;
     float camY;
 
-    // Start is called before the first frame update
+    // Start is called before the first frame update testing
     void Start()
     {
         cameraProperty = GetComponent<Camera>();
