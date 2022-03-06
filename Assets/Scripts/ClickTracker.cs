@@ -9,7 +9,7 @@ using UnityEditor;
 
 public class ClickTracker : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler
 {
-    public string buttonName = ""; //This should be an unique name of the button
+    public string buttonName = ""; //This should be an unique name of the button lol
     public bool isJoystick = false;
     public float movementLimit = 1; //How far the joystick can be moved (n x Joystick Width)
     public float movementThreshold = 0.1f; //Minimum distance (n x Joystick Width) that the Joystick need to be moved to trigger inputAxis (Must be less than movementLimit)
