@@ -68,7 +68,7 @@ public class CameraFollow : MonoBehaviour
 
         transitioning = false;
     }
-    // Start is called before the first frame update testing
+
 
     public bool GetIfTransitioning() 
     {
