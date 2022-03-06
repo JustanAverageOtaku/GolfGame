@@ -28,6 +28,7 @@ public class CameraFollow : MonoBehaviour
 
         //Debug.Log(camHorizontalOffset);
     }
+    // Start is called before the first frame update testing
 
 
     private void LateUpdate()
@@ -42,6 +43,7 @@ public class CameraFollow : MonoBehaviour
 
         transform.position = new Vector3(camX, camY, transform.position.z);
     }
+    // Start is called before the first frame update testing
 
 
     public void TransitionCamera(GameObject gb, float td) 
@@ -50,6 +52,7 @@ public class CameraFollow : MonoBehaviour
         transitioning = true;
         StartCoroutine(Transition(td));
     }
+    // Start is called before the first frame update testing
 
     IEnumerator Transition(float transitionDuration) 
     {
@@ -65,6 +68,7 @@ public class CameraFollow : MonoBehaviour
 
         transitioning = false;
     }
+    // Start is called before the first frame update testing
 
     public bool GetIfTransitioning() 
     {
